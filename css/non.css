@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    border-block: 0;
+}
+
+nav{
+    display: flex;
+    background-color: blueviolet;
+    /* outline: 1px solid red; */
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    
+
+    & ul, .account-menu{
+        display: flex;
+        margin: 7px 0px 0px 0px;
+
+        & a{
+            margin: 0 1rem;
+            list-style: none;
+            color: #ffffff;
+            text-decoration: none;
+        }
+        .acc{
+            color: #ffffff;
+            
+        }
+    }
+}
+
+/* -----------------main------------------ */
+.hero{
+    display: flex;
+    margin: 20px;
+    background-color: blueviolet; 
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    width: 100%;
+
+    & .text-hero{
+        text-align: center;
+        padding: 10px;
+        width: 80%;       
+}
+    & .logo-hero{
+        margin: 10px;
+
+    }
+}
+
+
+/* ----------------------------Our Services------------------------------- */
+.Services{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+    & .time, .group, .tool{
+        background-color: cadetblue;
+        margin: 10px;
+        padding: 20px;
+        width: 25%;
+        color: azure;
+        border: solid 1px black;
+        
+        
+    }
+
+}
+
+
+/* ------------------------------------------------------------- */
+
+/* -----------------------------------various----------------------------------- */
+.various{
+    
+}
+
+.various-all{
+    text-align: center;
+}   
+
+/* ---------------------------------team--------------------------------- */
+.team{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.non{
+    
+    text-align: center;
+    align-items: center;
+    width: 30%;
+    margin: 10px;
+    border: solid 1px black;
+    
+    & .non-l{
+        background-color: rgb(119, 246, 255);
+        padding: 10px;
+    }
+}
+
+/* -----------------------Address------------------------ */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    /* color: #fff; */
+}
+
+.address{
+    width: 25%;
+    margin: 5px;
+    padding: 5px;
+    
+    
+    
+    
+}
+
+.info{
+    width: 25%;
+    margin: 5px;
+}
+
+.links{
+    width: 25%;
+    margin: 5px;
+}
+
+.subscribe{
+    width: 25%;
+    margin: 5px;
+}
+.y{
+    text-decoration: none;
+    color: #000;    
+}
+
+
+
